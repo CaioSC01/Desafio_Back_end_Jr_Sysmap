@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <form action="" method="post">
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="Nome" />
+      </div>
+      <div>
+        <label for="salario">Salario:</label>
+        <input type="text" id="salario" />
+      </div>
+
+      <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" />
+      </div>
+
+      <div>
+        <label for="msg">Mensagem:</label>
+        <textarea id="msg"></textarea>
+      </div>
+
+      <div>
+        <label for="msg">alertar:</label>
+        <input type="checkbox" name="alertar" checked id="alert" />
+      </div>
+
+      <div>
+        <label for="msg">Enviar:</label>
+        <input type="button" name="alertar" value="Enviar" id="send" />
+      </div>
+    </form>
+    <script>
+      $("#send").prop("disabled", true);
+      $("#salario").keyup(function () {
+        if ($("#salario").val() !== "") {
+          $("#send").prop("disabled", false);
+        } else {
+          $("#send").prop("disabled", true);
+        }
+      });
+    </script>
+  </body>
+</html>
