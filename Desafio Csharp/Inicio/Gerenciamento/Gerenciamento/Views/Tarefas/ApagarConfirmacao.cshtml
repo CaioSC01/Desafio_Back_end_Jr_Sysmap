@@ -1,4 +1,5 @@
-﻿@{
+﻿@model TarefaModel
+@{
     ViewData["Title"] = "Apagar Tarefas";
 }
 
@@ -8,5 +9,5 @@
 
 </div>
 <a class="btn btn-primary btn-block" role="button" asp-controller="Tarefas" asp-action="Index">Cancelar</a>
-<a class="btn btn-danger btn-block" role="button"asp-controller="Tarefas" asp-action="Apagar" >Contirmar</a>
+<a class="btn btn-danger btn-block" role="button"asp-controller="Tarefas" asp-route-id="@Model.id"  asp-action="Apagar" >Confirmar</a>
 
