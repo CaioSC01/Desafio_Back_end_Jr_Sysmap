@@ -29,6 +29,7 @@ namespace Gerenciamento
             services.AddControllersWithViews();
             services.AddEntityFrameworkSqlServer()
                 .AddDbContext<BancoContext>(o => o.UseSqlServer(Configuration.GetConnectionString("DataBase")));
+            services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
             services.AddScoped<ITarefaRepositorio, TarefaRepositorio>();
         }
 
@@ -56,7 +57,7 @@ namespace Gerenciamento
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Login}/{action=Index}/{id?}");
             });
         }
     }
