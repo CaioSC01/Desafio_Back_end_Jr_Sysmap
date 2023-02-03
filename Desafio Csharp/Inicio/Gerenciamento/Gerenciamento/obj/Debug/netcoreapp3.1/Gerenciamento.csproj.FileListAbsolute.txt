@@ -383,3 +383,9 @@ C:\Users\Caio1\DesafioBackEnd\Desafio_Back_end_Jr_Sysmap\Desafio Csharp\Inicio\G
 C:\Users\Caio1\DesafioBackEnd\Desafio_Back_end_Jr_Sysmap\Desafio Csharp\Inicio\Gerenciamento\Gerenciamento\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Caio1\DesafioBackEnd\Desafio_Back_end_Jr_Sysmap\Desafio Csharp\Inicio\Gerenciamento\Gerenciamento\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Caio1\DesafioBackEnd\Desafio_Back_end_Jr_Sysmap\Desafio Csharp\Inicio\Gerenciamento\Gerenciamento\obj\Debug\netcoreapp3.1\Gerenciamento.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Caio1\DesafioBackEnd\Desafio_Back_end_Jr_Sysmap\Desafio Csharp\Inicio\Gerenciamento\Gerenciamento\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Index.cshtml.g.cs
+C:\Users\Caio1\DesafioBackEnd\Desafio_Back_end_Jr_Sysmap\Desafio Csharp\Inicio\Gerenciamento\Gerenciamento\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Criar.cshtml.g.cs
+C:\Users\Caio1\DesafioBackEnd\Desafio_Back_end_Jr_Sysmap\Desafio Csharp\Inicio\Gerenciamento\Gerenciamento\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\ApagarConfirmacao.cshtml.g.cs
+C:\Users\Caio1\DesafioBackEnd\Desafio_Back_end_Jr_Sysmap\Desafio Csharp\Inicio\Gerenciamento\Gerenciamento\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Editar.cshtml.g.cs
+C:\Users\Caio1\DesafioBackEnd\Desafio_Back_end_Jr_Sysmap\Desafio Csharp\Inicio\Gerenciamento\Gerenciamento\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\Caio1\DesafioBackEnd\Desafio_Back_end_Jr_Sysmap\Desafio Csharp\Inicio\Gerenciamento\Gerenciamento\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutDeslogado.cshtml.g.cs
