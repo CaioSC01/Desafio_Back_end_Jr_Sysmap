@@ -9,6 +9,7 @@ namespace Gerenciamento.Models
 {
     public class UsuarioModel
     {
+       
         public int id { get; set; }
        [Required(ErrorMessage ="Digite o Nome do Usuario")]
         public string Nome { get; set; }
@@ -24,5 +25,15 @@ namespace Gerenciamento.Models
         public DateTime Dt_Nascimento { get; set; }
         public DateTime Dt_Criacao { get; set; }
         public DateTime? Dt_Atualizacao { get; set; }
+
+        public bool SenhaValida(string senha)
+        {
+            return Senha == senha;
+        }
+        //private void EnviaEMail()
+        //{
+        //    var tb = dbPec.usp_Envia_Email();
+
+        //}
     }
 }

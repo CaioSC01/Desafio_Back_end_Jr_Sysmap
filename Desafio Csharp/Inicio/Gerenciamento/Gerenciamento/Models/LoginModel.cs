@@ -10,7 +10,7 @@ namespace Gerenciamento.Models
     {
         [Required(ErrorMessage = "Digite o login do usuario ")]
         public string Login { get; set; }
-        [Required(ErrorMessage = "Digitea Senha do usuario ")]
+        [Required(ErrorMessage = "Digite a Senha do usuario ")]
         public string Senha { get; set; }
     }
 }

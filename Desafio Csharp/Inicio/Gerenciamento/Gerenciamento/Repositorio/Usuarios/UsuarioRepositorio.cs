@@ -14,6 +14,11 @@ namespace Gerenciamento.Repositorio
         {
             _bancoContext = bancoContext;
         }
+        public UsuarioModel BuscarPorLogin(string login)
+        {
+            return _bancoContext.Usuarios.FirstOrDefault(x => x.Login.ToUpper() == login.ToUpper());
+        }
+
         public UsuarioModel ListaPorId(int id)
         {
             return _bancoContext.Usuarios.FirstOrDefault(x => x.id == id);
@@ -31,7 +36,7 @@ namespace Gerenciamento.Repositorio
             _bancoContext.SaveChanges();
             return usuario;
         }
-
+     
         public UsuarioModel Atualizar(UsuarioModel usuario)
         {
             UsuarioModel usuarioDb = ListaPorId(usuario.id);
@@ -58,5 +63,6 @@ namespace Gerenciamento.Repositorio
 
             return true;
         }
+
     }
 }
