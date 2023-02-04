@@ -1,4 +1,5 @@
-﻿using Gerenciamento.Models;
+﻿using Gerenciamento.Filters;
+using Gerenciamento.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace Gerenciamento.Controllers
 {
+    [PaginaUsuarioLoged]
     public class HomeController : Controller
     {
         public IActionResult Index()
