@@ -5,8 +5,8 @@ os Desafios Foram Feitos no : Visual Studio e Visual Studio Code
 
 ## 🚀 Começando
 
-Bom para começar a falar dos desafios queria dixer primeiro umas dificuldades que tive, que foream na introdução de procedures e a trgger e os testes,
-Não consegui efetualos pois encontrei muita dificuldade e então resolvi entregar assim para que voces veja, o que fiz ate o momento,
+Bom para começar a falar dos desafios queria dizer primeiro umas dificuldades que tive, que foram na introdução de procedures e a trigger e os testes,
+Não consegui efetualos pois encontrei muita dificuldade e então resolvi entregar assim para que voces veja, o que fiz ate o momento.
 
 1- Desafio C#
 
@@ -15,7 +15,7 @@ o proprio vs oferece, Comecei fazendo primeiro as telas de Crud que foram a de T
 dos usuarios e tarefas, assim sendo dinamico para o usuario vixualizar e cadastrar só o seu proprio, Utilizai para fazer a integração com o banco de dados a 
 connectionString onde ele entra no sql e faz ele mesmo as tabelas automatico com a linha de codigo Update-database, mas antes temos que criar models para fazer a migração dele para o banco, ultilizando a linha de codigo add-Migration, Depois disso foi feita uma tela de login para que ouvesse uma Validação de Usuarios e Adms
 Encontrei muitas dificuldades mas continuei ate que cinsegui fazer bastabte coisa consegui me calejar com o erro 'buld failed' então processegui em frente
-uma das inhas maiores dificuldades foi os testes pois eu estava com uma ideia de fazer uma api onde eu poderia fazer os testes nela mas acbei não fazendo então espero ter alguma outra oportunidade para mostra lo minhas Habilidades com api rest
+uma das inhas maiores dificuldades foi os testes pois eu estava com uma ideia de fazer uma api onde eu poderia fazer os testes nela mas acbei não fazendo então espero ter alguma outra oportunidade para mostra lo minhas Habilidades com api rest: Para entrar use (admin e senha 12345)
 
 2- Desafio JS
 
@@ -41,7 +41,7 @@ Microsoft.EntityFrameworkCore.Tools.
 
 (Desafio 2-3)
 Visual Studio Code
-LoveShare.
+LiveShare.
 
 ## 🎁 Expressões de gratidão
 
